@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: 'goorm-sans-bold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/goorm-sans-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'goorm-sans-bold';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    background-color: #c2d6a3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 10px;
+}
+header h1{
+  margin-right: 20px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.main-content {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #8dc653;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+footer img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
